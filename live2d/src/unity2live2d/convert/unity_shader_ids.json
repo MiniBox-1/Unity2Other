@@ -1,0 +1,18 @@
+{
+  "10753|0000000000000000f000000000000000": {
+    "shader": "Sprites/Default",
+    "n": 293
+  },
+  "203|0000000000000000f000000000000000": {
+    "shader": "Legacy Shaders/Particles/Alpha Blended",
+    "n": 1
+  },
+  "200|0000000000000000f000000000000000": {
+    "shader": "Legacy Shaders/Particles/Additive",
+    "n": 383
+  },
+  "205|0000000000000000f000000000000000": {
+    "shader": "Legacy Shaders/Particles/Multiply",
+    "n": 4
+  }
+}
