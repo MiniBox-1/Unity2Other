@@ -1,0 +1,27 @@
+[project]
+name = "unity2spine"
+version = "0.3.0"
+description = "Unity 原生数据 → Spine 3.8（总项目：公有转化代码 + PySide6 GUI + 插件协议）"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=9", "numpy>=1.24"]
+
+[project.optional-dependencies]
+gui = ["PySide6>=6.5"]
+
+[project.scripts]
+u2spine-gui = "unity2spine.gui.main:main"
+u2spine-cli = "unity2spine.cli:main"
+
+# 代码都在 src\ 下（见 README.md 的目录约定）
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = [
+    "unity2spine",
+    "unity2spine.api",
+    "unity2spine.gui",
+    "unity2spine.convert",
+    "unity2spine.ngui",
+    "unity2spine.spine",
+    "unity2spine.unity",
+    "unity2spine.validate",
+]

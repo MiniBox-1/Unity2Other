@@ -1,0 +1,17 @@
+# 每角色口径表（给 batch_cs_convert.py 用）
+# 格式：名字子串<TAB>环境变量=值[;环境变量=值]      `#` 之后是注释
+# 注意：**每个条目必须自成一行的开头**（不要把它粘在注释行末尾，否则会被当注释截掉）。
+#
+# Echidna：叠加层循环相位 = 0.499（进展 §37.9；产物账本 layerPhase 记录的就是它）
+2DModel_BR_Echidna_NS1	U2S_LAYER_PHASE=0.499
+#
+# Ignis：parts_BP_028_* 这族"链"部件在预制体里默认 m_IsActive=0，只在 Chain_* 的 clip 里被写成 1；
+#   而 Bresat_Layer 这些状态在状态机里 0 条 transition（只能靠脚本 Play 切），Unity 从未切进去
+#   ⇒ 曲线的 1 从未生效（编辑模式切层实测：仍 activeSelf=0/activeInHierarchy=0，见约束 59）。
+#   若照 clip 画，产物里就会多出"一块不动、悬在画面上"的部件 ⇒ 全部动画都按预制体默认（关）处理。
+2DModel_PECS_Ignis_NS1	U2S_FORCE_INACTIVE=*:parts_BP_028
+#
+# Brownie：lobby 在游戏里是从 Start（入场）切进去的，链带着 Start 的余摆（实测两条 Unity 真值
+#   第 0 帧头发差 44.6px）；秒数按真值扫过：Start 1.0/2.0/3.0/4.0/6.0 → 最大误差
+#   0.0473 / 0.0249 / 0.0332 / 0.0499 / 0.0511 ⇒ 取 2.0。
+2DModel_BR_Brownie_NS1	U2S_CS_PREROLL_lobby=Start:2.0

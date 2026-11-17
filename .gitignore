@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# 转换产物 / 中间结果
+Products/
+Versions/
+Evidence/
+Truth/
+out/
+_bdone_spine/
+_bdone_truth/
+*.moc3
+*.skel
+*.atlas
+*.png
+*.jpg
+*.psd
+
+# Unity
+Library/
+Temp/
+obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# 工具与系统
+.DS_Store
+Thumbs.db
+*.7z
+*.zip
+*.log

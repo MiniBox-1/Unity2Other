@@ -1,0 +1,12 @@
+[project]
+name = "u2spine-ext-lo"
+version = "0.1.0"
+description = "扩展库 2：lo（NormalLocal 2DModel 静态 prefab）→ Spine 3.8 特化"
+requires-python = ">=3.10"
+dependencies = ["unity2spine"]
+
+[project.entry-points."u2spine.profiles"]
+lo = "ext_lo.lo_profile:PROFILE"
+
+[tool.setuptools]
+packages = ["ext_lo"]

@@ -1,0 +1,37 @@
+{
+  "_note": "lo_uncen2Spine 的位置配置。代码本身不依赖任何外部文件；这里只是把'用户数据/外部工具在哪'集中放一处，可随时改或用环境变量 U2S_CONFIG 指向另一份。相对路径按项目根展开；未列出的键一律有内置兜底（见 unity2spine/env.py 的 MAP 与 unity2spine/paths.py）。",
+  "unity2spine": {
+    "_note": "legacy_home = 老主仓（历史工具里写的 D:\\VB\\Unity2Spine\\... 都按它解析）。那里放的是**数据**：info（真值帧/位姿）、_scratch（CS 烘焙中间件）。换机器把它指到数据所在处，留空则落回本项目根。",
+    "legacy_home": "D:\\VB\\Unity2Spine",
+    "cache_dir": ".cache"
+  },
+  "lo": {
+    "assets_dir": "D:\\VB\\Search\\New\\归档-proj-Mobile-old\\proj-Mobile-old\\Assets",
+    "project_root": "D:\\VB\\Search\\New\\归档-proj-Mobile-old\\proj-Mobile-old",
+    "out_dir": "D:\\VB\\Search\\New\\归档-proj-Mobile-old\\_spine_conv_cs_port",
+    "del_dir": "D:\\VB\\Search\\del",
+    "per_char_env": "config/per_char_env.txt",
+    "info_dir": "D:\\VB\\Unity2Spine\\info",
+    "csbake_dir": "D:\\VB\\Unity2Spine\\_scratch\\_csbake",
+    "legacy_2d_assets": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets"
+  },
+  "bdone": {
+    "assets_dir": "D:\\VB\\Search\\BdOne\\Assets",
+    "project_root": "D:\\VB\\Search\\BdOne",
+    "out_dir": "examples/bdone",
+    "spine_out": "D:\\VB\\Search\\SpineOut"
+  },
+  "external": {
+    "_note": "下面全是'别人的工具/别人的数据'，只用于校验与看图，转换本体不需要。",
+    "vb_root": "D:\\VB",
+    "viewer_root": "D:\\VB\\Viewer\\Render",
+    "viewer_python": "D:\\VB\\Viewer\\Render\\v4\\.venv\\Scripts\\python.exe",
+    "viewer_render": "D:\\VB\\Viewer\\Render\\v4\\render_offline.py",
+    "reverse_root": "D:\\Reverse",
+    "ida_dir": "D:\\Reverse\\IDA_Pro_v8.3_Portable",
+    "il2cpp_dir": "D:\\Reverse\\win64_player_nondevelopment_il2cpp",
+    "vision_js": "D:\\VB\\vision.js",
+    "spine_pyd": "third_party/lo_binding_Spine38py_20261010/viewer_patch",
+    "spine38_py_src": "third_party/lo_binding_Spine38py_20261010/Spine3.8-py"
+  }
+}

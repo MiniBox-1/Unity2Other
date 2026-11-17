@@ -1,0 +1,12 @@
+[project]
+name = "u2spine-ext-bdone"
+version = "0.1.0"
+description = "扩展库 1：BdOne（NGUI 动态立绘）→ Spine 3.8 特化"
+requires-python = ">=3.10"
+dependencies = ["unity2spine"]
+
+[project.entry-points."u2spine.profiles"]
+bdone = "ext_bdone.bdone_profile:PROFILE"
+
+[tool.setuptools]
+packages = ["ext_bdone"]

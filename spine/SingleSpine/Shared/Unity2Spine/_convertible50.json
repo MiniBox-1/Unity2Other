@@ -1,0 +1,454 @@
+{
+ "rows": [
+  {
+   "prefab": "alexandra_normal.prefab",
+   "name": "alexandra_normal",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\alexandra\\alexandra_normal.prefab",
+   "parts": 14,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "alexandra_skin1.prefab",
+   "name": "alexandra_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\alexandra\\alexandra_skin1.prefab",
+   "parts": 48,
+   "anims": 4,
+   "excluded": 1,
+   "ok": true
+  },
+  {
+   "prefab": "alice_skin1_dl_idle.prefab",
+   "name": "alice_skin1_dl_idle",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\alice\\alice_skin1_dl_idle.prefab",
+   "parts": 138,
+   "anims": 5,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "alice_skin1_fix.prefab",
+   "name": "alice_skin1_fix",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\alice\\alice_skin1_fix.prefab",
+   "parts": 139,
+   "anims": 5,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "alice_skin2.prefab",
+   "name": "alice_skin2",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\alice\\alice_skin2.prefab",
+   "parts": 81,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "alvis_skin1.prefab",
+   "name": "alvis_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\alvis\\alvis_skin1.prefab",
+   "parts": 21,
+   "anims": 5,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "alvis_skin1_dl.prefab",
+   "name": "alvis_skin1_dl",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\alvis\\alvis_skin1_dl.prefab",
+   "parts": 21,
+   "anims": 5,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "amy_normal.prefab",
+   "name": "amy_normal",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\amy\\amy_normal.prefab",
+   "parts": 33,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "amy_skin1.prefab",
+   "name": "amy_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\amy\\amy_skin1.prefab",
+   "parts": 40,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "andvari_skin2.prefab",
+   "name": "andvari_skin2",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\andvari\\andvari_skin2.prefab",
+   "parts": 63,
+   "anims": 3,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "arman_skin1.prefab",
+   "name": "arman_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\arman\\arman_skin1.prefab",
+   "parts": 42,
+   "anims": 7,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "atalanta_normal.prefab",
+   "name": "atalanta_normal",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\atalanta\\atalanta_normal.prefab",
+   "parts": 25,
+   "anims": 3,
+   "excluded": 1,
+   "ok": true
+  },
+  {
+   "prefab": "atalanta_skin1.prefab",
+   "name": "atalanta_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\atalanta\\atalanta_skin1.prefab",
+   "parts": 27,
+   "anims": 6,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "audrey_skin1.prefab",
+   "name": "audrey_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\audrey\\audrey_skin1.prefab",
+   "parts": 30,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "azaz_skin1.prefab",
+   "name": "azaz_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\azaz\\azaz_skin1.prefab",
+   "parts": 46,
+   "anims": 3,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "babariana_skin1.prefab",
+   "name": "babariana_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\babariana\\babariana_skin1.prefab",
+   "parts": 90,
+   "anims": 22,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "baekto_skin1.prefab",
+   "name": "baekto_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\baekto\\baekto_skin1.prefab",
+   "parts": 29,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "banshee_skin1.prefab",
+   "name": "banshee_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\banshee\\banshee_skin1.prefab",
+   "parts": 78,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "beasthunter_skin1.prefab",
+   "name": "beasthunter_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\beasthunter\\beasthunter_skin1.prefab",
+   "parts": 32,
+   "anims": 6,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "bheur_skin1.prefab",
+   "name": "bheur_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\bheur\\bheur_skin1.prefab",
+   "parts": 122,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "blacklilith_skin1.prefab",
+   "name": "blacklilith_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\blacklilith\\blacklilith_skin1.prefab",
+   "parts": 32,
+   "anims": 3,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "blacklilith_skin2.prefab",
+   "name": "blacklilith_skin2",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\blacklilith\\blacklilith_skin2.prefab",
+   "parts": 52,
+   "anims": 5,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "blackwyrm_skin1.prefab",
+   "name": "blackwyrm_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\blackwyrm\\blackwyrm_skin1.prefab",
+   "parts": 113,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "bloodypanther_normal.prefab",
+   "name": "bloodypanther_normal",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\bloodypanther\\bloodypanther_normal.prefab",
+   "parts": 48,
+   "anims": 5,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "bloodypanther_skin1.prefab",
+   "name": "bloodypanther_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\bloodypanther\\bloodypanther_skin1.prefab",
+   "parts": 180,
+   "anims": 5,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "brownie_skin1.prefab",
+   "name": "brownie_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\brownie\\brownie_skin1.prefab",
+   "parts": 17,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "carolina_normal.prefab",
+   "name": "carolina_normal",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\carolina\\carolina_normal.prefab",
+   "parts": 67,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "cerberus_skin1.prefab",
+   "name": "cerberus_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\cerberus\\cerberus_skin1.prefab",
+   "parts": 66,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "cerberus_skin2.prefab",
+   "name": "cerberus_skin2",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\cerberus\\cerberus_skin2.prefab",
+   "parts": 19,
+   "anims": 3,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "cerberus_skin3.prefab",
+   "name": "cerberus_skin3",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\cerberus\\cerberus_skin3.prefab",
+   "parts": 101,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "charlotte_skin1.prefab",
+   "name": "charlotte_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\charlotte\\charlotte_skin1.prefab",
+   "parts": 22,
+   "anims": 3,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "charlotte_skin2.prefab",
+   "name": "charlotte_skin2",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\charlotte\\charlotte_skin2.prefab",
+   "parts": 34,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "cheona_skin1.prefab",
+   "name": "cheona_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\cheona\\cheona_skin1.prefab",
+   "parts": 106,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "circe_skin1.prefab",
+   "name": "circe_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\circe\\circe_skin1.prefab",
+   "parts": 95,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "cocowhiteshell_normal.prefab",
+   "name": "cocowhiteshell_normal",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\cocowhiteshell\\cocowhiteshell_normal.prefab",
+   "parts": 25,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "constantias2_normal.prefab",
+   "name": "constantias2_normal",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\constantias2\\constantias2_normal.prefab",
+   "parts": 50,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "constantias2_skin0.prefab",
+   "name": "constantias2_skin0",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\constantias2\\constantias2_skin0.prefab",
+   "parts": 28,
+   "anims": 3,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "constantias2_skin1.prefab",
+   "name": "constantias2_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\constantias2\\constantias2_skin1.prefab",
+   "parts": 21,
+   "anims": 3,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "constantias2_skin1S.prefab",
+   "name": "constantias2_skin1S",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\constantias2\\constantias2_skin1S.prefab",
+   "parts": 49,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "constantias2_skin2.prefab",
+   "name": "constantias2_skin2",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\constantias2\\constantias2_skin2.prefab",
+   "parts": 24,
+   "anims": 5,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "csperrault_skin1.prefab",
+   "name": "csperrault_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\csperrault\\csperrault_skin1.prefab",
+   "parts": 68,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "csperrault_skin2.prefab",
+   "name": "csperrault_skin2",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\csperrault\\csperrault_skin2.prefab",
+   "parts": 68,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "daika_skin1.prefab",
+   "name": "daika_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\daika\\daika_skin1.prefab",
+   "parts": 36,
+   "anims": 5,
+   "excluded": 1,
+   "ok": true
+  },
+  {
+   "prefab": "daika_skin1_dl.prefab",
+   "name": "daika_skin1_dl",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\daika\\daika_skin1_dl.prefab",
+   "parts": 36,
+   "anims": 5,
+   "excluded": 1,
+   "ok": true
+  },
+  {
+   "prefab": "daphne_skin1.prefab",
+   "name": "daphne_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\daphne\\daphne_skin1.prefab",
+   "parts": 370,
+   "anims": 7,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "daphne_skin2.prefab",
+   "name": "daphne_skin2",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\daphne\\daphne_skin2.prefab",
+   "parts": 62,
+   "anims": 10,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "darkelf_skin1.prefab",
+   "name": "darkelf_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\darkelf\\darkelf_skin1.prefab",
+   "parts": 50,
+   "anims": 5,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "darkelf_skin1_dl.prefab",
+   "name": "darkelf_skin1_dl",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\darkelf\\darkelf_skin1_dl.prefab",
+   "parts": 50,
+   "anims": 3,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "draculina_skin1.prefab",
+   "name": "draculina_skin1",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\draculina\\draculina_skin1.prefab",
+   "parts": 100,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  },
+  {
+   "prefab": "draculina_skin1_fix.prefab",
+   "name": "draculina_skin1_fix",
+   "path": "D:\\VB\\Search\\NormalLocal\\lastOrign\\Assets\\prefabs\\lo\\draculina\\draculina_skin1_fix.prefab",
+   "parts": 100,
+   "anims": 4,
+   "excluded": 0,
+   "ok": true
+  }
+ ]
+}

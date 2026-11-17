@@ -1,0 +1,36 @@
+# unity2spine —— Unity 2DModel / NGUI 静态资源 → Spine 3.8 的离线转换库
+#
+# 目录约定（2026-09-17 库化后）：
+#   src/unity2spine/{unity,ngui,convert,spine,validate}/   ← 真正实现（按功能分）
+#   src/unity2spine_compat/ + 仓库根的 ngui2spine/         ← 老 import 名的兼容层
+#   tools/    命令行工具（校验 / 渲染 / 批量 / 内存探针）
+#   gui/      图形界面（gui.py + run_gui.bat）
+#   bones/    分骨骼瘦身试验（已搁置）
+#
+# 本地直接用（不安装）：
+#   set PYTHONPATH=D:\VB\Unity2Spine\src
+#   python -m unity2spine.convert.static_prefab_spine <prefab> <out_dir> ...
+# 或者照旧（兼容层）：
+#   python -m ngui2spine.static_prefab_spine <prefab> <out_dir> ...
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unity2spine"
+version = "0.1.0"
+description = "Unity 2DModel / NGUI static assets to Spine 3.8 (JSON/atlas/.skel) offline converter"
+requires-python = ">=3.9"
+dependencies = ["Pillow", "numpy"]
+
+[project.scripts]
+unity2spine-convert = "unity2spine.convert.static_prefab_spine:main"
+unity2spine-skel = "unity2spine.spine.spine38_binary_writer:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["unity2spine*", "unity2spine_compat*"]

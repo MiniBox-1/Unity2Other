@@ -1,0 +1,42 @@
+以下是有问题的导出(在live2dviewer查看)，尽量不要上传图片
+
+1.出现圆环，骨骼（针状）标记
+	alice_skin1_fix，alice_skin1_dl_idle 人物尾巴装饰有很多圆环，和右腿有骨骼标记
+	amy_normal 腿部有针和圆环
+	banshee_skin1 有针和绿环
+	cerberus_skin1 有针和圆环
+	csperrault_skin2 有绿环
+	
+要求：有一些图片（altas）如果在渲染的时候没有引用不用渲染出来了，如alice_skin1_dl_idle_static_6，amy_normal_static_3（是个灰环），alice_skin1_dl_idle_static_2（是个绿环
+），alice_skin1_dl_idle_static_4，amy_normal_static_2（骨骼标记）等等，不要把这些图片放入图集，添加屏蔽选项
+
+2.运动错位 
+	alice_skin2 主要是parts_Breast_ACC_L_s52，parts_Breast_ACC_R_s60，和下面的parts_Breast_R_Shadow_s56和parts_Breast_L_Shadow_s51和Unity中运动不符
+	banshee_skin1 breast动作的时候表情消失
+	bheur_skin1 Lobby有眨眼，但在Spine只是上眼眶消失
+	brownie_skin1 右手下消失或不完整
+	constantias2_normal breast 点击的时候中间会表情消失
+	draculina_skin1,draculina_skin1_fix Tap_1在unity中Part_Bikini_Down_30会形变,breast手会伸到生前，这两个动作导出不完整，动作缺失
+3.图片错位
+	babariana_skin1右下角的挎包有一个不和谐的碎块，在插槽和parts_004_upperarm_L_skinned_1710 和 parts_004_upperarm_L_skinned_1710有关
+	banshee_skin1 插槽parts_Eye_normal_3027表情右下角有一个小块，parts_Hair_acc_3057 头上有一个奇怪的块
+	cerberus_skin3 脸上有不会动的多余的眉毛块和Part_Eye_Smile_L_26_1091,Part_Eye_Close_R_26_1093
+	constantias2_skin1 眼睛和眼镜的方向是反的，眼睛和脸向左，头发刘海和眼镜向右
+要求：修正以上问腿
+
+4.载入十分卡顿
+	alice_skin1_dl_idle
+	alice_skin1_fix
+	babariana_skin1
+	bheur_skin1
+	blackwyrm_skin1
+	cerberus_skin3
+	cheona_skin1
+	circe_skin1
+	draculina_skin1
+	draculina_skin1_fix
+要求：提高加载速度，如将json转化为Binary，测试是否将多骨骼而不是单骨骼可以提高加载速度
+
+	
+
+
